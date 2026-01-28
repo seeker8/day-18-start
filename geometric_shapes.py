@@ -1,5 +1,5 @@
 from turtle import Turtle, Screen
-from data import colors
+from helpers import colors
 import random
 
 screen = Screen()
