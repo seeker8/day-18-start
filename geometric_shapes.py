@@ -1,9 +1,9 @@
 from turtle import Turtle, Screen
+from data import colors
 import random
 
 screen = Screen()
 tim = Turtle()
-colors = ['MediumBlue', 'ForestGreen', 'Red', 'DarkMagenta', 'LightSteelBlue', 'Crimson']
 
 def draw_shape(num_sides):
     for _ in range(num_sides):
