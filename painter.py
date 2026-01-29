@@ -25,8 +25,7 @@ jimi.speed("fastest")
 for y in range(10):
     jimi.goto(0, y * 50)
     for _ in range(10):
-        jimi.color(random.choice(rbg_colors))
-        jimi.dot(20)
+        jimi.dot(20, random.choice(rbg_colors))
         jimi.penup()
         jimi.forward(50)
 
