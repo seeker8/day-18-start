@@ -20,10 +20,15 @@ import random
 # separated by 50
 turtle.colormode(255)
 screen = Screen()
+x = -250
+y = -250
 jimi = Turtle()
+jimi.penup()
+jimi.goto(x, y)
+jimi.pendown()
 jimi.speed("fastest")
-for y in range(10):
-    jimi.goto(0, y * 50)
+for z in range(10):
+    jimi.goto(-250, y + (z * 50))
     for _ in range(10):
         jimi.dot(20, random.choice(rbg_colors))
         jimi.penup()
