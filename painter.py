@@ -25,13 +25,11 @@ y = -250
 jimi = Turtle()
 jimi.penup()
 jimi.goto(x, y)
-jimi.pendown()
 jimi.speed("fastest")
 for z in range(10):
     jimi.goto(-250, y + (z * 50))
     for _ in range(10):
         jimi.dot(20, random.choice(rbg_colors))
-        jimi.penup()
         jimi.forward(50)
 
 
