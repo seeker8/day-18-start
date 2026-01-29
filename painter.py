@@ -23,6 +23,7 @@ screen = Screen()
 x = -250
 y = -250
 jimi = Turtle()
+jimi.hideturtle()
 jimi.penup()
 jimi.goto(x, y)
 jimi.speed("fastest")
